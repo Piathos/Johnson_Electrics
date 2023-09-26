@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webc.css">
+    <title>Johnson's Electronics</title>
+
+    <link rel="icon" href="Je.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    
+    
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img id="img1" src="Je.png">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="catalog.html">Product Catalog</a></li>
+                    <li><a href="store.html">Visit Our Store</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner">
+            <img id="zen" src="zen.png" onclick="window.location.href='#fproducts'">
+            <img id="ipad" src="ipad.png" onclick="window.location.href='#fproducts'">
+            <img id="i15" src="i15.png" onclick="window.location.href='#fproducts'">
+            <div class="welcome-message">
+                <h1>WELCOME TO JOHNSON'S ELECTRONICS</h1>
+                <p>Your Destination for Quality Electronics</p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main class="container">
+        <section class="intro" id="aboutus">
+            <div class="intro-content">
+                <h2>About Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ducimus fugit culpa asperiores architecto amet quibusdam perferendis veniam, ipsum sit reprehenderit repellat commodi excepturi dignissimos labore tempora assumenda delectus quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore et laudantium provident earum suscipit saepe animi corrupti vel odit iste. Similique, distinctio. Rerum natus facilis cum tenetur neque delectus deleniti?</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d829.3162867740953!2d120.59256248304274!3d15.158582622072581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f272585993eb%3A0xc625348212950a6a!2sSystems%20Plus%20College%20Foundation!5e1!3m2!1sen!2sph!4v1695699300944!5m2!1sen!2sph" width="400" height="350" style="border: 1px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="featured-products" id="fproducts">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+
+                <div class="product-item">
+                    <img src="i15.png">
+                    <h3>Iphone 15</h3>
+                    <p>This is the latest Iphone in the industry. It features a variety of unique specifications in the market.</p>
+                    <span class="price">$19999.99</span>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <button class="buy-button">Buy Now</button>
+                </div>
+        
+                <div class="product-item" id="first">
+                    <img src="ipad.png">
+                    <h3>IPad Air 5</h3>
+                    <p>This is the latest IPad in the industry. It features a variety of unique specifications in the market.</p>
+                    <span class="price">$28999.99</span>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+                    <button class="buy-button">Buy Now</button>
+                </div>
+
+                <div class="product-item" id="second">
+                    <img src="zen.png">
+                    <h3>Asus ZenBook</h3>
+                    <p>This is the latest ZenBook in the industry. It features a variety of unique specifications in the market.</p>
+                    <span class="price" id="second">$678000.99</span>
+                    <div class="rating">
+                        <span class="star" id="second">&#9733;</span>
+                        <span class="star" id="second">&#9733;</span>
+                        <span class="star" id="second">&#9733;</span>
+                        <span class="star" id="second">&#9734;</span>
+                        <span class="star" id="second">&#9734;</span>
+                    </div>
+                    <button class="buy-button">Buy Now</button>
+                </div>
+                
+                <div class="product-item" id="third">
+                    <img src="tv.png">
+                    <h3>Samsung TV</h3>
+                    <p>This is the latest Samsung Television in the industry. It features a variety of unique specifications in the market.</p>
+                    <span class="price" id="third">$32101239.99</span>
+                    <div class="rating">
+                        <span class="star" id="third">&#9733;</span>
+                        <span class="star" id="third">&#9733;</span>
+                        <span class="star" id="third">&#9734;</span>
+                        <span class="star" id="third">&#9734;</span>
+                        <span class="star" id="third">&#9734;</span>
+                    </div>
+                    <button class="buy-button">Buy Now</button>
+                </div>
+
+                
+
+            </div>
+                
+
+        </section>
+
+
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <div class="testimonial-bubble">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quod nostrum ratione dolores reprehenderit similique maxime vitae, magni sequi quisquam sapiente corrupti non quidem natus expedita odit tempore? Nulla, dolores!</p>
+                </div>
+                <div class="testimonial-author">
+                    <p><strong>Wapol</strong></p>
+                    <p>Customer</p>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-bubble">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quod nostrum ratione dolores
+                        reprehenderit similique maxime vitae, magni sequi quisquam sapiente corrupti non quidem natus expedita odit
+                        tempore? Nulla, dolores!</p>
+                </div>
+                <div class="testimonial-author">
+                    <p><strong>Hachuu</strong></p>
+                    <p>Customer</p>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-bubble">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quod nostrum ratione dolores
+                        reprehenderit similique maxime vitae, magni sequi quisquam sapiente corrupti non quidem natus expedita odit
+                        tempore? Nulla, dolores!</p>
+                </div>
+                <div class="testimonial-author">
+                    <p><strong>Viraemia</strong></p>
+                    <p>Customer</p>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-bubble">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quod nostrum ratione dolores
+                        reprehenderit similique maxime vitae, magni sequi quisquam sapiente corrupti non quidem natus expedita odit
+                        tempore? Nulla, dolores!</p>
+                </div>
+                <div class="testimonial-author">
+                    <p><strong>John Doe</strong></p>
+                    <p>Customer</p>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <!-- Add more testimonials here -->
+            </div>
+        </section>
+
+
+        <section class="contact-form" id="contactus">
+            <h2>Contact Us</h2>
+            <form action="example.php" method="POST">
+                <div class="form-group">
+                    <label for="contact-name">Name:</label>
+                    <input type="text" id="contact-name" name="contact-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email:</label>
+                    <input type="email" id="contact-email" name="contact-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-subject">Subject:</label>
+                    <input type="text" id="contact-subject" name="contact-subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Message:</label>
+                    <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+                </div>
+                <div class="form-group-but">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-and-conditions.html">Terms and Conditions</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
